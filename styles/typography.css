@@ -1,36 +1,49 @@
-@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&display=swap");
 
 html {
-    color: var(--secondary, #ffffff);
+  color: var(--secondary, #ffffff);
 }
-
 
 .heading {
-    margin: 0.4em 0;
+  margin: 0.4em 0;
 }
-
 .heading--dark-white {
-    color: var(--dark-white, #ffffff6f);
+  color: var(--dark-white, #ffffff6f);
 }
-
 .heading--uppercase {
-    text-transform: uppercase;
-}  
-
-
+  text-transform: uppercase;
+}
 .heading--h1 {
-    font-size: 52px;
-    font-weight: 850;
-    line-height: 1;
+  font-size: 52px;
+  font-weight: 850;
+  line-height: 1;
 }
-
 .heading--h2 {
-    font-size: 16px;
-    font-weight: 600;
+  font-size: 16px;
+  font-weight: 600;
+}
+.heading--h3 {
+  font-size: 14px;
+  font-weight: 350;
 }
 
-.heading--h3 {
-    font-size: 14px;
-    font-weight: 350;
+.icon {
+  color: transparent;
+  background-color: var(--primary, #72207b);
+  display: inline-block;
+  width: 1.2em;
+  height: 1.2em;
+}
+
+.icon--arrow-right {
+  -webkit-mask: url("./../images/icons/arrow-right.svg");
+  mask: url("./../images/icons/arrow-right.svg");
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+
+  -webkit-mask-position: center;
+  mask-position: center;
+
+  -webkit-mask-size: contain;
+  mask-size: contain;
 }
