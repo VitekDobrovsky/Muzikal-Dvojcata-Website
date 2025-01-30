@@ -9,3 +9,18 @@
   top: -10000px;
   left: -10000px;
 }
+
+.button {
+  display: inline-block;
+  padding: 12px 16px;
+  background-color: var(--tertairy, #ffd700);
+  color: var(--primary, #72207b);
+  border-radius: var(--roundness-level, 4px);
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.button--uppercase {
+  text-transform: uppercase;
+}
