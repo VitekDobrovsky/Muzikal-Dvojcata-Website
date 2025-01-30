@@ -1,8 +1,8 @@
-@layer reset, init, components, design, layout;
+@layer reset, init, components, design;
 
 @import url(normalize.css) layer(reset);
 @import url(typography.css) layer(init);
-@import url(layout.css) layer(layout);
+@import url(components.css) layer(components);
 
 @layer init {
   :root {
@@ -31,4 +31,9 @@
       var(--primary, #72207b)
     );
   }
+}
+
+
+@layer design {
+
 }

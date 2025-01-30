@@ -1,0 +1,11 @@
+.seo-only {
+  position: absolute;
+  top: -10000px;
+  left: -10000px;
+}
+
+.hide-on-mobile {
+  position: absolute;
+  top: -10000px;
+  left: -10000px;
+}
