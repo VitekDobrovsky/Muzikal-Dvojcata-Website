@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&display=swap');
+
+
+html {
+    color: var(--secondary, #ffffff);
+}
+
+
+.heading {
+    margin: 0.4em 0;
+}
+
+.heading--dark-white {
+    color: var(--dark-white, #ffffff6f);
+}
+
+.heading--uppercase {
+    text-transform: uppercase;
+}  
+
+
+.heading--h1 {
+    font-size: 52px;
+    font-weight: 850;
+    line-height: 1;
+}
+
+.heading--h2 {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.heading--h3 {
+    font-size: 14px;
+    font-weight: 350;
+}
