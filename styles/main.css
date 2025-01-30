@@ -1,0 +1,34 @@
+@layer reset, init, components, design, layout;
+
+@import url(normalize.css) layer(reset);
+@import url(typography.css) layer(init);
+@import url(layout.css) layer(layout);
+
+@layer init {
+  :root {
+    --primary: #72207b;
+    --primary-light: #a72db4;
+    --secondary: #ffffff;
+    --tertairy: #ffd700;
+    --dark-white: #ffffff6f;
+
+    --roundness-level: 4px;
+  }
+
+  html {
+    font-family: "Alexandria", sans-serif;
+    background: var(--primary, #72207b);
+    background: -webkit-linear-gradient(
+      to right,
+      var(--primary, #72207b),
+      var(--primary-light, #a72db4),
+      var(--primary, #72207b)
+    );
+    background: linear-gradient(
+      to right,
+      var(--primary, #72207b),
+      var(--primary-light, #a72db4),
+      var(--primary, #72207b)
+    );
+  }
+}
