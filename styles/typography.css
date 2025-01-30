@@ -4,14 +4,21 @@ html {
   color: var(--secondary, #ffffff);
 }
 
+.highlighted-text {
+  color: var(--tertairy, #ffd700);
+}
+
 .heading {
   margin: 0.4em 0;
 }
 .heading--dark-white {
-  color: var(--dark-white, #ffffff6f);
+  color: var(--dark-white, #ffffff7f);
 }
 .heading--uppercase {
   text-transform: uppercase;
+}
+.heading--no-margin {
+  margin: 0;
 }
 .heading--h1 {
   font-size: 52px;
@@ -20,7 +27,7 @@ html {
 }
 .heading--h2 {
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 500;
 }
 .heading--h3 {
   font-size: 14px;

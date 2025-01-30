@@ -10,7 +10,7 @@
     --primary-light: #a72db4;
     --secondary: #ffffff;
     --tertairy: #ffd700;
-    --dark-white: #ffffff6f;
+    --dark-white: #ffffff7f;
 
     --roundness-level: 4px;
   }
@@ -35,5 +35,26 @@
 
 
 @layer design {
+  .page {
+    padding: 1rem;
+  }
 
+
+  .page__intro{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 164px;
+  }
+
+  .page__year {
+    font-size: 38px;
+    font-weight: 850;
+    color: var(--dark-white, #ffffff7f);
+    margin: 0 0 8px 0;
+  }
+
+  .page__intro-button {
+    margin-top: 28px;
+  }
 }
