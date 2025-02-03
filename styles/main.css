@@ -49,4 +49,37 @@
   .page__intro-button {
     margin-top: 28px;
   }
+
+  .page__header {
+    height: 60vh;
+    margin: 0 auto;
+  }
+
+  @media screen and (min-width: 1450px) {
+    .page__header {
+      padding-left: 2rem;
+      padding-right: 3rem;
+    }
+
+    .page__header::before {
+      content: "19\00000A25";
+      display: block;
+      white-space: pre;
+      font-size: 148px;
+      font-weight: 850;
+      color: var(--dark-white, #ffffff7f);
+      line-height: 0.8;
+      font-variant-numeric: tabular-nums;
+    }
+    .page__header::after {
+      content: "20\00000A25";
+      display: block;
+      white-space: pre;
+      font-size: 148px;
+      font-weight: 850;
+      color: var(--dark-white, #ffffff7f);
+      line-height: 0.8;
+      font-variant-numeric: tabular-nums;
+    }
+  }
 }

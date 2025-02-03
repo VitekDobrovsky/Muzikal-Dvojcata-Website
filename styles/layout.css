@@ -5,3 +5,24 @@
   gap: 164px;
 }
 
+@media screen and (min-width: 750px) {
+  .page__intro {
+    gap: 20px;
+  }
+
+  .page__intro-button {
+    margin-top: 20px;
+  }
+
+  .page__header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 1450px) {
+  .page__header {
+    justify-content: space-between;
+  }
+}

@@ -54,3 +54,15 @@ html {
   -webkit-mask-size: contain;
   mask-size: contain;
 }
+
+@media screen and (min-width: 750px) {
+  .heading--h1 {
+    font-size: 108px;
+  }
+  .heading--h2 {
+    font-size: 28px;
+  }
+  .heading--h3 {
+    font-size: 18px;
+  }
+}
