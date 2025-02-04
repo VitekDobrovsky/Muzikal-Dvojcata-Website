@@ -20,6 +20,14 @@
   text-transform: uppercase;
 }
 
+.coin {
+  text-align: center;
+  display: grid;
+  gap: 1rem;
+  place-items: center;
+  margin: 0;
+}
+
 @media screen and (min-width: 750px) {
   .hide-on-mobile {
     position: static;

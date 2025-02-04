@@ -5,6 +5,13 @@
   gap: 164px;
 }
 
+.page__coins {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 3rem;
+}
+
 @media screen and (min-width: 750px) {
   .page__intro {
     gap: 20px;
@@ -18,6 +25,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+
+  .page__coins {
+    flex-direction: row;
+    gap: 1rem;
   }
 }
 
