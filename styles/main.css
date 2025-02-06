@@ -37,10 +37,6 @@
 }
 
 @layer design {
-  .page {
-    padding: 0 1rem;
-  }
-
   .page__year {
     font-size: 38px;
     font-weight: 850;
@@ -56,21 +52,12 @@
     margin: 0 auto;
     height: 50vh;
     height: 50svh;
+    padding: 0 1rem;
   }
   .page__content {
-    position: relative;
     background-color: var(--primary, #72207b);
-    padding: 3rem 0;
+    padding: 3rem 2rem;
     margin-top: 174px;
-  }
-
-  .page__content::before {
-    content: url(./../images/background/siluete.svg);
-    display: block;
-    position: absolute;
-    width: 100%;
-    bottom: 100%;
-    margin-bottom: -5px;
   }
 
   @media screen and (min-width: 1450px) {
