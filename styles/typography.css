@@ -9,7 +9,7 @@ html {
 }
 
 .heading {
-  margin: 0.4em 0;
+  margin: 0;
 }
 .heading--dark-white {
   color: var(--dark-white, #ffffff7f);
@@ -34,17 +34,83 @@ html {
   font-weight: 350;
 }
 
+.heading--h4 {
+  font-size: 17px;
+  font-weight: 400;
+}
+
 .icon {
   color: transparent;
   background-color: var(--primary, #72207b);
   display: inline-block;
   width: 1.2em;
   height: 1.2em;
+  vertical-align: middle;
+}
+
+.icon--align-auto {
+  vertical-align: bottom;
+}
+
+.icon--tertairy {
+  background-color: var(--tertairy, #ffd700);
 }
 
 .icon--arrow-right {
   -webkit-mask: url("./../images/icons/arrow-right.svg");
   mask: url("./../images/icons/arrow-right.svg");
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+
+  -webkit-mask-position: center;
+  mask-position: center;
+
+  -webkit-mask-size: contain;
+  mask-size: contain;
+}
+
+.icon--phone {
+  -webkit-mask: url("./../images/icons/phone.svg");
+  mask: url("./../images/icons/phone.svg");
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+
+  -webkit-mask-position: center;
+  mask-position: center;
+
+  -webkit-mask-size: contain;
+  mask-size: contain;
+}
+
+.icon--envelope {
+  -webkit-mask: url("./../images/icons/envelope.svg");
+  mask: url("./../images/icons/envelope.svg");
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+
+  -webkit-mask-position: center;
+  mask-position: center;
+
+  -webkit-mask-size: contain;
+  mask-size: contain;
+}
+
+.icon--globe {
+  -webkit-mask: url("./../images/icons/globe.svg");
+  mask: url("./../images/icons/globe.svg");
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+
+  -webkit-mask-position: center;
+  mask-position: center;
+
+  -webkit-mask-size: contain;
+  mask-size: contain;
+}
+
+.icon--location {
+  -webkit-mask: url("./../images/icons/location.svg");
+  mask: url("./../images/icons/location.svg");
   -webkit-mask-repeat: no-repeat;
   mask-repeat: no-repeat;
 
