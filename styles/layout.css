@@ -20,7 +20,7 @@
   margin: 0 0 8px 0;
 }
 
-.page__content {
+.page__content-wrapper {
   padding: 0 var(--mobile-padding, 2rem);
 }
 
@@ -31,6 +31,7 @@
   flex-direction: column;
   gap: 3rem;
   max-width: var(--max-width, 1450px);
+  padding: 5rem 0;
 }
 
 .page__footer {

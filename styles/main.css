@@ -22,18 +22,6 @@
   html {
     font-family: "Alexandria", sans-serif;
     background: var(--primary, #72207b);
-    background: -webkit-linear-gradient(
-      to right,
-      var(--primary, #72207b),
-      var(--primary-light, #a72db4),
-      var(--primary, #72207b)
-    );
-    background: linear-gradient(
-      to right,
-      var(--primary, #72207b),
-      var(--primary-light, #a72db4),
-      var(--primary, #72207b)
-    );
   }
 
   body {
@@ -51,6 +39,42 @@
 }
 
 @layer design {
+  .page__header {
+    background: var(--primary, #72207b);
+    background: -webkit-linear-gradient(
+      to right,
+      var(--primary, #72207b),
+      var(--primary-light, #a72db4),
+      var(--primary, #72207b)
+    );
+    background: linear-gradient(
+      to right,
+      var(--primary, #72207b),
+      var(--primary-light, #a72db4),
+      var(--primary, #72207b)
+    );
+  }
+
+  .page__content {
+    background: var(--primary, #72207b);
+    background: -webkit-linear-gradient(
+      to right,
+      var(--primary, #72207b),
+      var(--primary-light, #a72db4),
+      var(--primary, #72207b)
+    );
+    background: linear-gradient(
+      to right,
+      var(--primary, #72207b),
+      var(--primary-light, #a72db4),
+      var(--primary, #72207b)
+    );
+  }
+  .page__content-wrapper {
+    border-top-left-radius: 50% 2%;
+    border-top-right-radius: 50% 2%;
+    background-color: var(--primary, #72207b);
+  }
   .page__year {
     font-size: 38px;
     font-weight: 850;
@@ -73,6 +97,14 @@
   .page__copyright {
     font-size: 14px;
     font-weight: 250;
+  }
+
+  /* tablet + */
+  @media screen and (min-width: 750px) {
+    .page__content-wrapper {
+      border-top-left-radius: 50% 8%;
+      border-top-right-radius: 50% 8%;
+    }
   }
 
   /* desktop */
