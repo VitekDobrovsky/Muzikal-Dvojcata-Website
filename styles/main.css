@@ -55,26 +55,6 @@
     font-size: 38px;
     font-weight: 850;
     color: var(--dark-white, #ffffff7f);
-    margin: 0 0 8px 0;
-  }
-
-  .page__intro-button {
-    margin-top: 28px;
-  }
-
-  .page__header {
-    height: 60vh;
-    height: 60svh;
-    padding: 0 var(--mobile-padding, 2rem);
-  }
-  .page__content {
-    padding: 0 var(--mobile-padding, 2rem);
-  }
-
-  .page__footer {
-    max-width: var(--max-width, 1450px);
-    padding: 0 var(--mobile-padding, 2rem);
-    margin: 0 auto;
   }
 
   .page__footer-heading::after {
@@ -90,17 +70,12 @@
     font-weight: 250;
   }
 
-  .page__footer-container-heading {
-    margin-bottom: 0.5em;
-  }
-
   .page__copyright {
     font-size: 14px;
     font-weight: 250;
-    text-align: center;
-    margin-top: 2rem;
   }
 
+  /* desktop */
   @media screen and (min-width: 1450px) {
     .page__header::before {
       content: "19\00000A25";
@@ -121,13 +96,6 @@
       color: var(--dark-white, #ffffff7f);
       line-height: 0.8;
       font-variant-numeric: tabular-nums;
-    }
-    .page__coins {
-      max-width: var(--max-width, 1450px);
-      margin: 0 auto;
-    }
-
-    .page__footer-contact {
     }
   }
 }

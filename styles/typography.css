@@ -121,6 +121,7 @@ html {
   mask-size: contain;
 }
 
+/* tablet + */
 @media screen and (min-width: 750px) {
   .heading--h1 {
     font-size: 108px;
