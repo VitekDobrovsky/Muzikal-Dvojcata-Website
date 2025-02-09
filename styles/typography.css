@@ -1,5 +1,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&display=swap");
 
+:root {
+  --logo-size-desktop: 108px;
+  --h1-desktop: 54px;
+  --h2-desktop: 38px;
+  --h3-desktop: 24px;
+  --h4-desktop: 18px;
+  --text-desktop: 18px;
+
+  --logo-size-mobile: 54px;
+  --h1-mobile: 34px;
+  --h2-mobile: 24px;
+  --h3-mobile: 20px;
+  --h4-mobile: 16px;
+  --text-mobile: 14px;
+}
+
 html {
   color: var(--secondary, #ffffff);
 }
@@ -17,26 +33,33 @@ html {
 .heading--uppercase {
   text-transform: uppercase;
 }
-.heading--no-margin {
-  margin: 0;
-}
-.heading--h1 {
-  font-size: 52px;
+
+.heading--logo {
+  font-size: var(--logo-size-mobile, 54px);
   font-weight: 850;
   line-height: 1;
+  letter-spacing: 1%;
 }
+
+.heading--h1 {
+  font-size: var(--h1-mobile, 28px);
+  font-weight: 850;
+  line-height: 1;
+  letter-spacing: 1%;
+}
+
 .heading--h2 {
-  font-size: 16px;
-  font-weight: 500;
+  font-size: var(--h2-mobile, 20px);
+  font-weight: 550;
 }
 .heading--h3 {
-  font-size: 14px;
-  font-weight: 350;
+  font-size: var(--h3-mobile, 20px);
+  font-weight: 450;
 }
 
 .heading--h4 {
-  font-size: 17px;
-  font-weight: 400;
+  font-size: var(--h4-mobile, 16px);
+  font-weight: 300;
 }
 
 .icon {
@@ -123,13 +146,22 @@ html {
 
 /* tablet + */
 @media screen and (min-width: 750px) {
-  .heading--h1 {
-    font-size: 108px;
+  .heading--logo {
+    font-size: var(--logo-size-desktop, 108px);
   }
+
+  .heading--h1 {
+    font-size: var(--h1-desktop, 54px);
+  }
+
   .heading--h2 {
-    font-size: 28px;
+    font-size: var(--h2-desktop, 38px);
   }
   .heading--h3 {
-    font-size: 18px;
+    font-size: var(--h3-desktop, 24px);
+  }
+
+  .heading--h4 {
+    font-size: var(--h4-desktop, 18px);
   }
 }

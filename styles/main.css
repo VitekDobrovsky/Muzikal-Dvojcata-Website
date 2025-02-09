@@ -14,9 +14,6 @@
     --dark-white: #ffffff7f;
 
     --roundness-level: 4px;
-
-    --max-width: 1450px;
-    --mobile-padding: 2rem;
   }
 
   html {
@@ -104,6 +101,9 @@
     .page__content-wrapper {
       border-top-left-radius: 50% 8%;
       border-top-right-radius: 50% 8%;
+    }
+    .page__logo-pre {
+      font-size: 32px;
     }
   }
 
