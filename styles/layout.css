@@ -37,12 +37,12 @@
   align-items: center;
   flex-direction: column;
   gap: 3rem;
-  max-width: var(--max-width, 1450px);
+  max-width: var(--max-width, 1400px);
   padding: 5rem 0 0 0;
 }
 
 .page__footer {
-  max-width: var(--max-width, 1450px);
+  max-width: var(--max-width, 1400px);
   padding: 0 var(--mobile-padding, 1rem);
   margin: 0 auto;
   margin-top: 13rem;
@@ -69,7 +69,33 @@
   gap: 0.5em;
 }
 
-/* tablet + */
+.page__navigation {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin: 0;
+  padding: 24px 0;
+}
+.page__muzikal-header {
+  position: relative;
+  padding-bottom: 265px;
+  padding: 0 var(--mobile-padding, 1rem) 265px var(--mobile-padding, 1rem);
+}
+
+.page__header-wrapper {
+  max-width: var(--max-width, 1400px);
+  margin: 0 auto;
+}
+
+.page__muzikal-header .heading--h1 {
+  margin-bottom: 24px;
+}
+
+.page__muzikal-header .text {
+  margin-bottom: 32px;
+  max-width: 45em;
+}
+
 @media screen and (min-width: 750px) {
   .page__intro {
     gap: 20px;
@@ -86,6 +112,15 @@
   .page__coins {
     flex-direction: row;
     gap: 1rem;
+  }
+
+  .page__muzikal-header::before {
+    left: 1000px;
+    top: 84px;
+    width: 720px;
+  }
+  .page__muzikal-intro {
+    margin-top: 124px;
   }
 }
 

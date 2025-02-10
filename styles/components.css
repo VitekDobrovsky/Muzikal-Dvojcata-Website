@@ -14,6 +14,7 @@
   text-decoration: none;
   font-size: 14px;
   font-weight: 500;
+  vertical-align: middle;
 }
 .button--uppercase {
   text-transform: uppercase;

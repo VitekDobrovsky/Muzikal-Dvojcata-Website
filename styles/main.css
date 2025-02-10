@@ -36,7 +36,8 @@
 }
 
 @layer design {
-  .page__header {
+  .page__header,
+  .page__muzikal-header {
     background: var(--primary, #72207b);
     background: -webkit-linear-gradient(
       to right,
@@ -94,6 +95,35 @@
   .page__copyright {
     font-size: 14px;
     font-weight: 250;
+  }
+  .page__muzikal-header::after {
+    content: url("./../images/background/separator-wave.svg");
+    display: block;
+    position: absolute;
+    bottom: -5px;
+    width: 100%;
+    z-index: 3;
+  }
+
+  .page__muzikal-header {
+    overflow: hidden;
+    z-index: 2;
+  }
+
+  .page__muzikal-intro {
+    position: relative;
+    z-index: 2;
+  }
+
+  .page__muzikal-header::before {
+    content: url("./../images/background/notes.svg");
+    display: block;
+    position: absolute;
+    z-index: 1;
+    right: -30px;
+    bottom: -20px;
+    height: 250px;
+    width: 100%;
   }
 
   /* tablet + */
