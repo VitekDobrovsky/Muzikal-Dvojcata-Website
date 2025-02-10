@@ -41,12 +41,27 @@
   vertical-align: bottom;
 }
 
+.performance__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 4.2px;
+  margin-bottom: 8px;
+}
+
 .performance__header::after {
   content: "";
   display: block;
   height: 1px;
-  width: 100%;
+  min-width: 100%;
   background-color: #ffffff;
+}
+
+.performance__body {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
 }
 
 /* tablet + */
@@ -61,5 +76,11 @@
   }
   .tag {
     font-size: 15px;
+  }
+  .performance__header {
+    margin-bottom: 14px;
+  }
+  .performance__body {
+    gap: 6px;
   }
 }
