@@ -126,6 +126,8 @@
     width: 100%;
   }
 
+
+
   /* tablet + */
   @media screen and (min-width: 750px) {
     .page__content-wrapper {

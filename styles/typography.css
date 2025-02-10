@@ -68,6 +68,9 @@ html {
   font-size: var(--h4-mobile, 16px);
   font-weight: 300;
 }
+.heading--bold {
+  font-weight: 650;
+}
 
 .icon {
   color: transparent;
