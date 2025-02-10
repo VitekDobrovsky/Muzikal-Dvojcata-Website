@@ -95,6 +95,9 @@
   margin-bottom: 32px;
   max-width: 45em;
 }
+.page__muzikal-intro {
+  margin-top: 24px;
+}
 
 @media screen and (min-width: 750px) {
   .page__intro {
