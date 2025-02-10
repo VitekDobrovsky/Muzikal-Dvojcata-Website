@@ -59,4 +59,7 @@
     top: -10000px;
     left: -10000px;
   }
+  .tag {
+    font-size: 15px;
+  }
 }
