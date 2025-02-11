@@ -97,7 +97,7 @@
     font-weight: 250;
   }
   .page__muzikal-header::after {
-    content: url("./../images/background/separator-wave.svg");
+    content: url("./../images/ilustration/separator-wave.svg");
     display: block;
     position: absolute;
     bottom: -5px;
@@ -116,7 +116,7 @@
   }
 
   .page__muzikal-header::before {
-    content: url("./../images/background/notes.svg");
+    content: url("./../images/ilustration/notes.svg");
     display: block;
     position: absolute;
     z-index: 1;
@@ -126,7 +126,12 @@
     width: 100%;
   }
 
-
+  .page__about-us-content::after {
+    content: url("./../images/ilustration/guitar-player.svg");
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+  }
 
   /* tablet + */
   @media screen and (min-width: 750px) {
