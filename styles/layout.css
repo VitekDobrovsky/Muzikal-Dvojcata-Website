@@ -115,6 +115,19 @@
   gap: 44px;
 }
 
+.page__about-us .heading--h2 {
+  margin-bottom: 38px;
+}
+
+.page__about-us-content {
+  display: grid;
+  gap: 24px;
+}
+
+.page__about-us-content::after {
+  grid-row: 2;
+}
+
 @media screen and (min-width: 750px) {
   .page__intro {
     gap: 20px;
