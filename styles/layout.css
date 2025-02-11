@@ -45,7 +45,7 @@
   max-width: var(--max-width, 1400px);
   padding: 0 var(--mobile-padding, 1rem);
   margin: 0 auto;
-  margin-top: 13rem;
+  margin-top: 9rem;
 }
 
 .page__footer-container-heading {
@@ -104,7 +104,7 @@
   max-width: var(--max-width, 1400px);
   margin: 0 auto;
   display: grid;
-  gap: 124px;
+  gap: 9rem;
 }
 
 .page__performances .heading--h2 {
@@ -146,6 +146,9 @@
   .page__coins {
     flex-direction: row;
     gap: 1rem;
+  }
+  .page__footer {
+    margin-top: 18rem;
   }
 
   .page__muzikal-header::before {
