@@ -130,8 +130,9 @@
     content: url("./../images/ilustration/guitar-player.svg");
     display: block;
     width: 80%;
+    max-width: 400px;
     margin: 0 auto;
-    border-bottom: 3px solid var(--secondary, #ffffff);
+    border-bottom: 3px solid #f3f3f3;
   }
 
   /* tablet + */
@@ -142,6 +143,11 @@
     }
     .page__logo-pre {
       font-size: 32px;
+    }
+
+    .page__about-us-content::before {
+      content: url("./../images/ilustration/notes-small.svg");
+      display: block;
     }
   }
 
