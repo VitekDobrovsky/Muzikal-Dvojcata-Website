@@ -103,6 +103,8 @@
   padding: 5rem var(--mobile-padding, 1rem) 0 var(--mobile-padding, 1rem);
   max-width: var(--max-width, 1400px);
   margin: 0 auto;
+  display: grid;
+  gap: 124px;
 }
 
 .page__performances .heading--h2 {
@@ -157,6 +159,8 @@
 
   .page__muzikal-content {
     padding-top: 13rem;
+    gap: 18rem;
+}
   }
 
   .page__performances .heading--h2 {
