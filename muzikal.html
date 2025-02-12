@@ -6,18 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>O Muzikálu | Muzikál Dvojčata</title>
     <link rel="stylesheet" href="./styles/main.css">
+    <script src="scripts/hamburger.js" defer></script>
 </head>
 
-<body class="page">
+<body class="page" id="page">
     <header class="page__muzikal-header">
         <div class="page__header-wrapper">
             <nav>
-                <menu class="page__navigation">
+                <menu class="page__navigation" id="navigation">
                     <a href="#">Domů</a>
                     <a href="#">Představení</a>
                     <a href="#">O Muzikálu</a>
                     <a href="#">Kontakt</a>
                 </menu>
+                <div onclick="changeHamburgerState()" class="hamburger page__hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
             </nav>
             <div class="page__muzikal-intro">
                 <h1 class="seo-only">O Muzikálu Dvojčata</h1>

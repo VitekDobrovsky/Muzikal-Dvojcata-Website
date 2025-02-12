@@ -64,6 +64,43 @@
   gap: 4px;
 }
 
+.hamburger {
+  width: 3rem;
+  padding: 8px;
+  cursor: pointer;
+  --bar-height: 6px;
+  --gap: 8px;
+  height: calc(var(--bar-height) * 3 + var(--gap) * 2);
+  transition: all 0.3s;
+}
+
+.hamburger span {
+  display: block;
+  height: var(--bar-height, 6px);
+  width: 100%;
+  background-color: var(--tertairy, #ffd700); /* or white idk now */
+  border-radius: 2px;
+  margin-bottom: var(--gap, 8px);
+  transition: all 0.3s;
+}
+
+.hamburger.active {
+  transform: translateY(var(--gap, 8px));
+}
+
+.hamburger.active > span:nth-child(1) {
+  margin: 0;
+  transform: rotate(45deg) translateY(8px);
+}
+.hamburger.active > span:nth-child(2) {
+  width: 0px;
+  margin: 0;
+}
+.hamburger.active > span:nth-child(3) {
+  transform: rotate(-45deg) translateY(-8px);
+  margin: 0;
+}
+
 /* tablet + */
 @media screen and (min-width: 750px) {
   .hide-on-mobile {

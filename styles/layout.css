@@ -70,11 +70,28 @@
 }
 
 .page__navigation {
-  display: flex;
-  justify-content: center;
-  gap: 1rem;
+  position: fixed;
+  display: grid;
+  align-content: center;
+  gap: 10rem;
+  top: 0;
+  bottom: 0;
+  left: 100%;
+  right: -100%;
+  z-index: 10;
   margin: 0;
-  padding: 24px 0;
+  padding: 5rem var(--mobile-padding, 1rem);
+  text-align: center;
+}
+.page__navigation.active {
+  left: 0;
+  right: 0;
+}
+
+.page__hamburger {
+  margin: 12px 0 0 auto;
+  position: relative;
+  z-index: 100;
 }
 .page__muzikal-header {
   position: relative;
@@ -199,6 +216,19 @@
     width: 19rem;
     max-width: none;
     margin-top: -7rem;
+  }
+
+  .page__hamburger {
+    display: none;
+  }
+
+  .page__navigation {
+    position: static;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 0;
+    padding: 24px 0;
   }
 }
 
