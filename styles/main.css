@@ -19,6 +19,8 @@
   html {
     font-family: "Alexandria", sans-serif;
     background: var(--primary, #72207b);
+    scroll-behavior: smooth;
+    scroll-padding-top: 8rem;
   }
 
   body {
