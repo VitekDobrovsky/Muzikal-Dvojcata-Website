@@ -97,12 +97,13 @@
     font-weight: 250;
   }
   .page__muzikal-header::after {
-    content: url("./../images/ilustration/separator-wave.svg");
+    content: url("./../images/ilustration/separator-wave-small.svg");
     display: block;
-    position: absolute;
     bottom: -5px;
-    width: 100%;
-    z-index: 3;
+    width: calc(100% + var(--mobile-padding, 1rem) * 2);
+    position: relative;
+    z-index: 100;
+    margin: 0 -1rem 0 -1rem;
   }
 
   .page__muzikal-header {
@@ -156,6 +157,11 @@
       font-size: 32px;
     }
 
+    .page__muzikal-header::after {
+      content: url("./../images/ilustration/separator-wave.svg");
+      position: absolute;
+      margin: 0;
+    }
     .page__about-us-content::before {
       content: url("./../images/ilustration/notes-small.svg");
       display: block;
