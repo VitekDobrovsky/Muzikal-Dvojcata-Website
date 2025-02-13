@@ -26,6 +26,21 @@
   text-transform: uppercase;
 }
 
+.link {
+  transition: all 0.1s ease;
+}
+
+.link:hover {
+  text-decoration: underline;
+  color: #faf8da;
+}
+.link > span {
+  transition: all 0.3s ease;
+}
+.link:hover > .icon--tertairy {
+  transform: translateX(-0.2px) rotate(-5deg);
+}
+
 .coin {
   text-align: center;
   display: grid;
