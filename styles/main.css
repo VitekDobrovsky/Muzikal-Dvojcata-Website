@@ -181,10 +181,10 @@
 
     .page__navigation-item::after {
       transition: width 0.3s ease-in-out;
-      --height: 2px;
       content: "";
       display: block;
       background-color: var(--tertairy, #ffd700);
+      --height: 2px;
       height: var(--height, 2px);
       width: 0;
       margin-bottom: var(--height, 2px);

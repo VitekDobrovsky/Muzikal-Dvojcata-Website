@@ -91,7 +91,7 @@
 .page__hamburger {
   margin: 12px 0 0 auto;
   position: relative;
-  z-index: 100;
+  z-index: 1001;
 }
 .page__muzikal-header {
   position: relative;
