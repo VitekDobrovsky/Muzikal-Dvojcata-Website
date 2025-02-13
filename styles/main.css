@@ -21,7 +21,7 @@
     font-family: "Alexandria", sans-serif;
     background: var(--primary, #72207b);
     scroll-behavior: smooth;
-    scroll-padding-top: 8rem;
+    scroll-padding-top: 2rem;
   }
 
   body {
@@ -152,6 +152,9 @@
 
   /* tablet + */
   @media screen and (min-width: 750px) {
+    html {
+      scroll-padding-top: 8rem;
+    }
     .page__content-wrapper {
       border-top-left-radius: 50% 8%;
       border-top-right-radius: 50% 8%;

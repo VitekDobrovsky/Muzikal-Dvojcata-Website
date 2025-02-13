@@ -22,11 +22,4 @@ function handleResize() {
   }
 }
 
-navLinks.forEach((link) => {
-  if (window.innerWidth < 750) {
-    link.addEventListener("click", closeHamburger);
-    console.log("clicked");
-  }
-});
-
 window.addEventListener("resize", handleResize);
