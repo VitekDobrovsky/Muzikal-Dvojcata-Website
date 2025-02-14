@@ -7,6 +7,7 @@
     <title>Muzikál Dvojčata</title>
 
     <link rel="stylesheet" href="./styles/main.css">
+    <script src="scripts/hamburger.js" defer></script>
     <link rel="icon" type="image/x-icon" sizes="16x16" href="./images/icons/favicon-16x16.ico">
     <link rel="icon" type="image/x-icon" sizes="32x32" href="./images/icons/favicon-32x32.ico">
     <link rel="icon" type="image/x-icon" sizes="48x48" href="./images/icons/favicon-48x48.ico">
@@ -14,20 +15,39 @@
 </head>
 
 <body class="page">
-    <header class="page__header">
-        <div class="page__intro">
-            <h1 class="seo-only">Muzikál Dvojčata</h1>
-            <h2 class="seo-only">ZUŠ Liberec & ZUŠ Jablonec nad Nisou</h2>
-            <div class="page__intro-heading">
-                <h4 class="heading heading--h2 heading--dark-white heading--uppercase page__logo-pre">Muzikál</h4>
-                <h3 class="heading heading--logo heading--uppercase heading--no-margin">Dvojčata</h3>
+    <header>
+        <nav>
+            <menu class="page__navigation" id="navigation">
+                <a class="page__navigation-item" onclick="closeHamburger()" href="./index.html">Domů</a>
+                <a class="page__navigation-item" onclick="closeHamburger()" href="./muzikal.html#o-muzikalu">O
+                    Muzikálu</a>
+                <a class="page__navigation-item" onclick="closeHamburger()"
+                    href="./muzikal.html#predstaveni">Představení</a>
+                <a class="page__navigation-item" onclick="closeHamburger()" href="#kontakt">Kontakt</a>
+            </menu>
+            <div onclick="changeHamburgerState()" class="hamburger page__hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
             </div>
-            <div class="page__intro-text">
-                <p class="page__year mobile-only">1925 <span class="highlighted-text">-</span> 2025</p>
-                <p class="heading heading--h3 heading--uppercase heading--no-margin">Sto let příběhů psaných uměním</p>
-                <h3 class="heading heading--h4 hide-on-mobile">Oslava 100 let ZUŠ Liberec a Jablonec nad Nisou!</h3>
-                <a href="./muzikal.html" class="button button--uppercase">Více o muzikálu <span
-                        class="icon icon--arrow-right icon--align-auto">zde</span></a>
+        </nav>
+        <div class="page__header">
+
+            <div class="page__intro">
+                <h1 class="seo-only">Muzikál Dvojčata</h1>
+                <h2 class="seo-only">ZUŠ Liberec & ZUŠ Jablonec nad Nisou</h2>
+                <div class="page__intro-heading">
+                    <h4 class="heading heading--h2 heading--dark-white heading--uppercase page__logo-pre">Muzikál</h4>
+                    <h3 class="heading heading--logo heading--uppercase heading--no-margin">Dvojčata</h3>
+                </div>
+                <div class="page__intro-text">
+                    <p class="page__year mobile-only">1925 <span class="highlighted-text">-</span> 2025</p>
+                    <p class="heading heading--h3 heading--uppercase heading--no-margin">Sto let příběhů psaných uměním
+                    </p>
+                    <h3 class="heading heading--h4 hide-on-mobile">Oslava 100 let ZUŠ Liberec a Jablonec nad Nisou!</h3>
+                    <a href="./muzikal.html" class="button button--uppercase">Více o muzikálu <span
+                            class="icon icon--arrow-right icon--align-auto">zde</span></a>
+                </div>
             </div>
         </div>
     </header>
@@ -67,7 +87,7 @@
             </section>
         </div>
     </main>
-    <footer>
+    <footer id="kontakt">
         <div class="page__footer">
             <div class="page__footer-heading">
                 <h3 class="heading heading--h3 heading--uppercase">Kontakt</h3>

@@ -91,7 +91,8 @@
 }
 
 .page__hamburger {
-  margin: 12px 0 0 auto;
+  padding-top: 12px;
+  margin: 0 0 0 auto;
   position: relative;
   z-index: 1001;
 }
@@ -155,16 +156,17 @@
   }
 
   .page__header {
-    height: auto;
+    height: 60vh;
+    height: 60svh;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 8rem;
-    padding-bottom: 13rem;
+    margin-top: -3rem;
   }
 
   .page__coins {
     flex-direction: row;
+    align-items: flex-start;
     gap: 1rem;
   }
   .page__footer {
@@ -210,6 +212,7 @@
     width: 100%;
     max-width: 30rem;
     margin: 0 auto;
+    margin-top: -3rem;
     align-self: center;
   }
   .page__about-us-content::after {
@@ -218,6 +221,7 @@
     width: 19rem;
     max-width: none;
     margin-top: -7rem;
+    margin-bottom: 1rem;
   }
 
   .page__hamburger {
