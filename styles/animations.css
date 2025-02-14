@@ -1,26 +1,28 @@
-.button:hover {
-  background-color: var(--tertairy-hover, #ffdb59);
-  transform: scale(1.02);
-  border-radius: 6px;
-}
+@media screen and (min-width: 750px) {
+  .button:hover {
+    background-color: var(--tertairy-hover, #ffdb59);
+    transform: scale(1.02);
+    border-radius: 6px;
+  }
 
-.link:hover {
-  text-decoration: underline;
-  color: #faf8da;
-}
+  .link:hover {
+    text-decoration: underline;
+    color: #faf8da;
+  }
 
-.link:hover > .icon--tertairy {
-  transform: translateX(-0.2px) rotate(-5deg);
-}
+  .link:hover > .icon--tertairy {
+    transform: translateX(-0.2px) rotate(-5deg);
+  }
 
-.coin:hover {
-  transform: scale(1.01);
-}
+  .coin:hover {
+    transform: scale(1.01);
+  }
 
-.page__navigation-item:hover {
-  font-weight: 500;
-}
+  .page__navigation-item:hover {
+    font-weight: 500;
+  }
 
-.page__navigation-item:hover::after {
-  width: 100%;
+  .page__navigation-item:hover::after {
+    width: 100%;
+  }
 }
