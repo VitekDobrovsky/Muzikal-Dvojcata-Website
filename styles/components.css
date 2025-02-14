@@ -17,11 +17,6 @@
   vertical-align: middle;
   transition: all 0.3s ease-in;
 }
-.button:hover {
-  background-color: var(--tertairy-hover, #ffdb59);
-  transform: scale(1.02);
-  border-radius: 6px;
-}
 .button--uppercase {
   text-transform: uppercase;
 }
@@ -30,15 +25,8 @@
   transition: all 0.1s ease;
 }
 
-.link:hover {
-  text-decoration: underline;
-  color: #faf8da;
-}
 .link > span {
   transition: all 0.3s ease;
-}
-.link:hover > .icon--tertairy {
-  transform: translateX(-0.2px) rotate(-5deg);
 }
 
 .coin {
@@ -50,9 +38,6 @@
   transition: all 0.3s;
 }
 
-.coin:hover {
-  transform: scale(1.01);
-}
 
 .tag {
   display: inline-block;

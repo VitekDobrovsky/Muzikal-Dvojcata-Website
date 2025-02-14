@@ -4,6 +4,7 @@
 @import url(typography.css) layer(init);
 @import url(components.css) layer(components);
 @import url(layout.css) layer(layout);
+@import url(animations.css) layer(design);
 
 @layer init {
   :root {
@@ -181,10 +182,6 @@
       transition: font-weight 0.3s ease-in-out;
     }
 
-    .page__navigation-item.active,
-    .page__navigation-item:hover {
-      font-weight: 500;
-    }
     .page__navigation-item::after {
       transition: width 0.3s ease-in-out;
       content: "";
@@ -194,10 +191,6 @@
       height: var(--height, 2px);
       width: 0;
       margin-bottom: var(--height, 2px);
-    }
-    .page__navigation-item.active::after,
-    .page__navigation-item:hover::after {
-      width: 100%;
     }
   }
 
