@@ -7,6 +7,7 @@ function changeHamburgerState() {
   hamburger.classList.toggle("active");
   nav.classList.toggle("active");
   page.classList.toggle("hidden");
+  console.log(nav);
 }
 
 function closeHamburger() {
