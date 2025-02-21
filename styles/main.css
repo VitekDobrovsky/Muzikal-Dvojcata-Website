@@ -82,6 +82,11 @@
     color: var(--dark-white, #ffffff7f);
   }
 
+  .page__partner {
+    transition: opacity 0.3s ease-in-out;
+    opacity: 0.7;
+  }
+
   .page__footer-heading::after {
     content: "";
     display: block;

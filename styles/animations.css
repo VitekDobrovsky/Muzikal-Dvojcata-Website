@@ -18,6 +18,10 @@
     transform: scale(1.01);
   }
 
+  .page__partner:hover {
+    opacity: 1;
+  }
+
   .page__navigation-item:hover {
     font-weight: 500;
   }

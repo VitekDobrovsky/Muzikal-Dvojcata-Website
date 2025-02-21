@@ -43,6 +43,20 @@
   padding: 5rem 0 0 0;
 }
 
+.page__partners {
+  margin-top: 9rem;
+  text-align: center;
+}
+
+.page__partners-logos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  gap: 3rem;
+  max-width: var(--max-width, 1400px);
+}
+
 .page__footer {
   max-width: var(--max-width, 1400px);
   padding: 0 var(--mobile-padding, 1rem);
@@ -169,10 +183,24 @@
     align-items: flex-start;
     gap: 1rem;
   }
-  .page__footer {
+
+  .page__partners {
     margin-top: 18rem;
   }
 
+  .page__partners .text {
+    margin-bottom: 1rem;
+  }
+
+  .page__partners-logos {
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .page__footer {
+    margin-top: 18rem;
+  }
   .page__muzikal-header::before {
     left: 1000px;
     top: 84px;
@@ -250,7 +278,7 @@
   .page__footer-contact {
     grid-template-columns: repeat(2, 1fr);
   }
-
+  .page__partners-logos,
   .page__coins {
     margin: 0 auto;
   }
