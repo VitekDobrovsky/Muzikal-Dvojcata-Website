@@ -47,6 +47,9 @@
   margin-top: 9rem;
   text-align: center;
 }
+.page__partners .text {
+  margin-bottom: 2rem;
+}
 
 .page__partners-logos {
   display: flex;
