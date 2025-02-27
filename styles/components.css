@@ -28,7 +28,6 @@
   margin: 0;
 }
 
-
 .tag {
   display: inline-block;
   margin: 0;
@@ -67,11 +66,16 @@
 
 .hamburger {
   width: 3rem;
-  padding: 8px;
+  --clickable-padding: 8px;
+  padding: var(--clickable-padding, 8px);
   cursor: pointer;
   --bar-height: 6px;
   --gap: 8px;
   height: calc(var(--bar-height) * 3 + var(--gap) * 2);
+  transform: translate(
+    var(--clickable-padding, 8px),
+    calc(var(--clickable-padding, 8px) * -1)
+  );
 }
 
 .hamburger span {

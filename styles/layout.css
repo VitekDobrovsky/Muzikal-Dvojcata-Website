@@ -116,7 +116,7 @@
 .page__muzikal-header {
   position: relative;
   padding-bottom: 265px;
-  padding: 0 var(--mobile-padding, 1rem);
+  padding: 1rem var(--mobile-padding, 1rem) 0 var(--mobile-padding, 1rem);
 }
 
 .page__header-wrapper {
