@@ -18,14 +18,27 @@
     transform: scale(1.01);
   }
 
+  .page__partner {
+    transition: opacity 0.3s ease-in-out;
+  }
   .page__partner:hover {
     opacity: 1;
   }
 
+  .page__navigation {
+    transition: left 0.3s;
+  }
+  
+  .page__navigation-item {
+    transition: font-weight 0.3s ease-in-out;
+  }
   .page__navigation-item:hover {
     font-weight: 500;
   }
 
+  .page__navigation-item::after {
+    transition: width 0.3s ease-in-out;
+  }
   .page__navigation-item:hover::after {
     width: 100%;
   }
