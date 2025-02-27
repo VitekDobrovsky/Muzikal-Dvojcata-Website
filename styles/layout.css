@@ -17,7 +17,6 @@ header {
   display: flex;
   flex-direction: column;
   gap: 164px;
-
 }
 
 .page__logo-pre {
@@ -119,7 +118,6 @@ header {
 }
 .page__muzikal-header {
   position: relative;
-  padding-bottom: 265px;
 }
 
 .page__header-wrapper {
