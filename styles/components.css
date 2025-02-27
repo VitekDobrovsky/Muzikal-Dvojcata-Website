@@ -15,18 +15,9 @@
   font-size: 14px;
   font-weight: 500;
   vertical-align: middle;
-  transition: all 0.3s ease-in;
 }
 .button--uppercase {
   text-transform: uppercase;
-}
-
-.link {
-  transition: all 0.1s ease;
-}
-
-.link > span {
-  transition: all 0.3s ease;
 }
 
 .coin {
@@ -35,7 +26,6 @@
   gap: 1rem;
   place-items: center;
   margin: 0;
-  transition: all 0.3s;
 }
 
 
@@ -82,7 +72,6 @@
   --bar-height: 6px;
   --gap: 8px;
   height: calc(var(--bar-height) * 3 + var(--gap) * 2);
-  transition: all 0.3s;
 }
 
 .hamburger span {
@@ -92,7 +81,6 @@
   background-color: var(--tertairy, #ffd700); /* or white idk now */
   border-radius: 2px;
   margin-bottom: var(--gap, 8px);
-  transition: all 0.3s;
 }
 
 .hamburger.active {
