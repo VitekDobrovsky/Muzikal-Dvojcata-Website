@@ -17,6 +17,7 @@ header {
   display: flex;
   flex-direction: column;
   gap: 164px;
+
 }
 
 .page__logo-pre {
