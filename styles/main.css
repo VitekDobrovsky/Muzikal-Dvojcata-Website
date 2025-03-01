@@ -144,6 +144,7 @@
   }
 
   .page__navigation {
+    list-style-type: none;
     background-color: var(--primary, #ffffff);
     text-transform: uppercase;
     font-weight: 500;

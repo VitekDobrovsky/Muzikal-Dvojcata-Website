@@ -16,16 +16,6 @@
     <meta property="og:url" content="https://www.zuslj.cz/o-muzikalu">
     <meta property="og:type" content="website">
     <link rel="canonical" href="https://www.zuslj.cz/o-muzikalu">
-    <script type="application/ld+json">
-    {
-    "@context": "https://schema.org",
-    "@type": "Muzikál",
-    "name": "O muzikálu Dvojčata",
-    "url": "https://www.zuslj.cz/o-muzikalu",
-    "logo": "https://zuslj.cz/images/coins/coin-100-let-zus.webp",
-    "description": "Muzikál vypráví příběh dvou základních uměleckých škol a jejich žáků, na jejichž osudech můžeme sledovat historii severních Čech. Děti navštěvují různé umělecké obory a potkávají se s realitou první republiky, druhé republiky, poválečných Sudet, socialismu, sametové revoluce a 21. století.",
-    }
-    </script>
     <link rel="stylesheet" href="./../styles/main.css">
     <script src="./../scripts/hamburger.js" defer></script>
     <link rel="icon" type="image/x-icon" sizes="16x16" href="./../images/icons/favicon-16x16.ico">
@@ -39,10 +29,18 @@
         <div class="page__header-wrapper">
             <nav>
                 <menu class="page__navigation" id="navigation">
-                    <a class="page__navigation-item" onclick="closeHamburger()" href="/">Domů</a>
-                    <a class="page__navigation-item" onclick="closeHamburger()" href="#o-muzikalu">O Muzikálu</a>
-                    <a class="page__navigation-item" onclick="closeHamburger()" href="#predstaveni">Představení</a>
-                    <a class="page__navigation-item" onclick="closeHamburger()" href="#kontakt">Kontakt</a>
+                    <li>
+                        <a class="page__navigation-item" onclick="closeHamburger()" href="/">Domů</a>
+                    </li>
+                    <li>
+                        <a class="page__navigation-item" onclick="closeHamburger()" href="#o-muzikalu">O Muzikálu</a>
+                    </li>
+                    <li>
+                        <a class="page__navigation-item" onclick="closeHamburger()" href="#predstaveni">Představení</a>
+                    </li>
+                    <li>
+                        <a class="page__navigation-item" onclick="closeHamburger()" href="#kontakt">Kontakt</a>
+                    </li>
                 </menu>
                 <div onclick="changeHamburgerState()" class="hamburger page__hamburger" id="hamburger">
                     <span></span>
@@ -222,7 +220,7 @@
         </div>
 
         <div class="page__copyright">
-            <p>&copy copyright 2025, všechna práva vyhrazena</p>
+            <p>&copy; copyright 2025, všechna práva vyhrazena</p>
         </div>
     </footer>
 </body>
