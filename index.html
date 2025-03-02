@@ -36,7 +36,7 @@
 <body class="page" id="page">
     <header>
         <nav>
-            <menu class="page__navigation" id="navigation">
+            <menu class="page__navigation" id="navigation" aria-label="navigace">
                 <li>
                     <a class="page__navigation-item" onclick="closeHamburger()" href="/">Domů</a>
                 </li>
@@ -61,20 +61,23 @@
         <div class="page__header">
             <div class="page__intro">
                 <h1 class="seo-only">Muzikál Dvojčata od ZUŠ Liberec & ZUŠ Jablonec nad Nisou</h1>
-                <h2 class="seo-only">ZUŠ Liberec & ZUŠ Jablonec nad Nisou - Muzikál Dvojčata</h2>
+                <h2 class="seo-only" aria-hidden="true">ZUŠ Liberec & ZUŠ Jablonec nad Nisou - Muzikál Dvojčata</h2>
                 <div class="page__intro-heading">
-                    <h4 class="heading heading--h2 heading--dark-white heading--uppercase page__logo-pre">
+                    <h4 class="heading heading--h2 heading--dark-white heading--uppercase page__logo-pre"
+                        aria-hidden="true">
                         Muzikál</h4>
-                    <h3 class="heading heading--logo heading--uppercase heading--no-margin">Dvojčata</h3>
+                    <h3 class="heading heading--logo heading--uppercase heading--no-margin" aria-hidden="true">Dvojčata
+                    </h3>
                 </div>
                 <div class="page__intro-text">
-                    <p class="page__year mobile-only">1925 <span class="highlighted-text">-</span> 2025</p>
+                    <p aria-hidden="true" class="page__year mobile-only">1925 <span class="highlighted-text">-</span>
+                        2025</p>
                     <p class="heading heading--h3 heading--uppercase heading--no-margin">Sto let příběhů psaných
                         uměním
                     </p>
                     <h3 class="heading heading--h4 hide-on-mobile">Oslava 100 let ZUŠ Liberec a Jablonec nad
                         Nisou!</h3>
-                    <a href="/o-muzikalu" class="button button--uppercase">Více o muzikálu <span
+                    <a href="/o-muzikalu" class="button button--uppercase" role="button">Více o muzikálu <span
                             class="icon icon--arrow-right icon--align-auto">zde</span></a>
                 </div>
             </div>
@@ -85,7 +88,7 @@
         <div class="page__content-wrapper">
             <section class="page__coins">
                 <h3 class="seo-only">Navigace</h3>
-                <a href="https://zusliberec.cz" target="_blank">
+                <a href="https://zusliberec.cz" target="_blank" role="button" aria-label="navštívit web ZUŠ Liberec">
                     <figure class="coin">
                         <figcaption class="coin__caption">ZUŠ Liberec</figcaption>
                         <picture>
@@ -95,7 +98,7 @@
                     </figure>
                 </a>
                 <!-- <a href="historie.html"> -->
-                <figure class="coin" style="margin-top: 2rem;">
+                <figure class="coin--deactivated" aria-hidden="true">
                     <!-- <figcaption class="coin__caption">100 let ZUŠ</figcaption> -->
                     <picture>
                         <source srcset="./images/coins/coin-100-let-zus.webp" type="image/webp">
@@ -103,7 +106,8 @@
                     </picture>
                 </figure>
                 <!-- </a> -->
-                <a href="https://www.zusjbc.cz" target="_blank">
+                <a href="https://www.zusjbc.cz" target="_blank" role="button"
+                    aria-label="navštívit web ZUŠ Jablonec nad Nisou">
                     <figure class="coin">
                         <figcaption class="coin__caption">ZUŠ Jablonec nad Nisou</figcaption>
                         <picture>
@@ -118,19 +122,19 @@
                 <h3 class="text">Muzikál je realizován za finanční podpory <b>Libereckého kraje
                         a statutárních měst Liberec a Jablonec nad Nisou.</b></h3>
                 <div class="page__partners-logos">
-                    <a class="page__partner" href="https://www.kraj-lbc.cz/" target="_blank">
+                    <a class="page__partner" href="https://www.kraj-lbc.cz/" target="_blank" role="button">
                         <picture>
                             <source srcset="./images/logo/logo-liberecky-kraj-400.webp" type="image/webp">
                             <img src="./images/logo/logo-liberecky-kraj-400.png" alt="Logo Liberecký kraj" height="78">
                         </picture>
                     </a>
-                    <a class="page__partner" href="https://www.liberec.cz/" target="_blank">
+                    <a class="page__partner" href="https://www.liberec.cz/" target="_blank" role="button">
                         <picture>
                             <source srcset="./images/logo/logo-liberec-400.webp" type="image/webp">
                             <img src="./images/logo/logo-liberec-400.png" alt="Logo města Liberec" height="40">
                         </picture>
                     </a>
-                    <a class="page__partner" href="https://www.mestojablonec.cz/" target="_blank">
+                    <a class="page__partner" href="https://www.mestojablonec.cz/" target="_blank" role="button">
                         <picture>
                             <source srcset="./images/logo/logo-jablonec-nad-nisou-400.webp" type="image/webp">
                             <img src="./images/logo/logo-jablonec-nad-nisou-400.png" alt="Logo města Jablonec nad Nisou"
@@ -150,15 +154,19 @@
                 <div class="page__footer-container">
                     <h4 class="heading heading--h4 page__footer-container-heading"><b>ZUŠ Liberec</b></h4>
                     <div class="page__footer-contact">
-                        <a class="page__footer-contact-item link" href="tel:+420485110192" target="_blank"><span
+                        <a class="page__footer-contact-item link" href="tel:+420485110192" target="_blank"
+                            aria-label="telefon ZUŠ Liberec + 420 4 8 5 1 1 0 1 9 2"><span
                                 class="icon icon--phone icon--tertairy"></span> <b>Telefon:</b> +420 485 110 192</a>
-                        <a class="page__footer-contact-item link" href="mailto:info@zusliberec.cz" target="_blank"><span
-                                class="icon icon--envelope icon--tertairy"></span> <b>Email:</b> info@zusliberec.cz</a>
-                        <a class="page__footer-contact-item link" href="https://www.zusliberec.cz" target="_blank"><span
+                        <a class="page__footer-contact-item link" href="mailto:info@zusliberec.cz" target="_blank"
+                            aria-label="email ZUŠ Liberec"><span class="icon icon--envelope icon--tertairy"></span>
+                            <b>Email:</b> info@zusliberec.cz</a>
+                        <a class="page__footer-contact-item link" href="https://www.zusliberec.cz" target="_blank"
+                            aria-label="webové stránky ZUŠ Liberec"><span
                                 class="icon icon--globe icon--tertairy"></span> <b>Web:</b> www.zusliberec.cz</a>
                         <a class="page__footer-contact-item link"
                             href="https://www.google.com/maps/place/Fr%C3%BDdlantsk%C3%A1+1359%2F19,+460+01+Liberec-Star%C3%A9+M%C4%9Bsto/@50.7712793,15.0531471,17z/data=!3m1!4b1!4m6!3m5!1s0x470936a2407b719b:0x23f33d149715ab75!8m2!3d50.7712759!4d15.055722!16s%2Fg%2F11csn0z7kl?entry=ttu&g_ep=EgoyMDI1MDIwMy4wIKXMDSoASAFQAw%3D%3D"
-                            target="_blank"><span class="icon icon--location icon--tertairy"> </span><b>Adresa:</b>
+                            target="_blank" aria-label="adresa ZUŠ Liberec"><span
+                                class="icon icon--location icon--tertairy"> </span><b>Adresa:</b>
                             Frýdlantská
                             1359/19, Liberec 1</a>
                     </div>
@@ -166,15 +174,18 @@
                 <div class="page__footer-container">
                     <h4 class="heading heading--h4 page__footer-container-heading"><b>ZUŠ Jablonec nad Nisou</b></h4>
                     <div class="page__footer-contact">
-                        <a class="page__footer-contact-item link" href="tel:+420488880300" target="_blank"><span
+                        <a class="page__footer-contact-item link" href="tel:+420488880300" target="_blank"
+                            aria-label="telefon ZUŠ Jablonec nad Nisou + 420 4 8 8 8 8 0 3 0 0"><span
                                 class="icon icon--phone icon--tertairy"></span> <b>Telefon:</b> +420 488 880 300</a>
-                        <a class="page__footer-contact-item link" href="mailto:info@zusjbc.cz" target="_blank"><span
+                        <a class="page__footer-contact-item link" href="mailto:info@zusjbc.cz" target="_blank"
+                            aria-label="email ZUŠ Jablonec nad Nisou"><span
                                 class="icon icon--envelope icon--tertairy"></span> <b>Email:</b> info@zusjbc.cz</a>
-                        <a class="page__footer-contact-item link" href="https://www.zusjbc.cz" target="_blank"><span
+                        <a class="page__footer-contact-item link" href="https://www.zusjbc.cz" target="_blank"
+                            aria-label="webové stránky ZUŠ Jablonec nad Nisou"><span
                                 class="icon icon--globe icon--tertairy"></span> <b>Web:</b> www.zusjbc.cz</a>
                         <a class="page__footer-contact-item link"
                             href="https://www.google.com/maps/place/Podhorsk%C3%A1+2500%2F47,+466+01+Jablonec+nad+Nisou+1/@50.7245208,15.1770106,17z/data=!3m1!4b1!4m6!3m5!1s0x470ecadbab77812b:0x6add897edc446e06!8m2!3d50.7245174!4d15.1795855!16s%2Fg%2F11b8ydsvl1?entry=ttu&g_ep=EgoyMDI1MDIwMy4wIKXMDSoASAFQAw%3D%3D"
-                            target="_blank">
+                            target="_blank" aria-label="adresa ZUŠ Jablonec nad Nisou">
                             <span class="icon icon--location icon--tertairy">zde</span> <b>Adresa:</b> Podhorská 47,
                             Jablonec nad
                             Nisou</a>

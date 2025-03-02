@@ -123,4 +123,7 @@
   .performance__body {
     gap: 6px;
   }
+  .coin--deactivated {
+    margin-top: 2rem;
+  }
 }
