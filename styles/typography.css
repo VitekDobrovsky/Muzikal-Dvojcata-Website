@@ -45,14 +45,14 @@ html {
   font-size: var(--logo-size-mobile, 54px);
   font-weight: 850;
   line-height: 1;
-  letter-spacing: 1%;
+  letter-spacing: 0.2rem;
 }
 
 .heading--h1 {
   font-size: var(--h1-mobile, 28px);
   font-weight: 850;
   line-height: 1;
-  letter-spacing: 1%;
+  letter-spacing: 0.15rem;
 }
 
 .heading--h2 {
