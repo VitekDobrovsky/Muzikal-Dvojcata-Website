@@ -1,0 +1,15 @@
+{
+  "name": "Muzikál Dvojčata - ZUŠ Liberec & ZUŠ Jablonec nad Nisou",
+  "short_name": "Muzikál Dvojčata",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#72207b",
+  "theme_color": "#a72db4",
+  "icons": [
+    {
+      "src": "/images/icons/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}
