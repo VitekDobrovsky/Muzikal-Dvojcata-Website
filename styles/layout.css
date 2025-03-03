@@ -93,9 +93,10 @@ header {
 
 .page__navigation {
   position: fixed;
-  display: grid;
-  align-content: center;
-  gap: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1rem;
   top: 0;
   bottom: 0;
   left: 100%;
@@ -265,7 +266,7 @@ header {
 
   .page__navigation {
     position: static;
-    display: flex;
+    flex-direction: row;
     justify-content: center;
     gap: 2rem;
     margin: 0;
